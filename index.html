@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <!-- <title>Kapze - Explore, Discover & Connect.</title>
+  <meta name="title" content="Julia - I'm User Interface Designer & Developer.">
+  <meta name="description" content="This is a personal portfolio html template made by codewithsadee"> -->
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="assets/images/IMG_20240317_224727_080.png" type="image/svg+xml">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Homemade Apple:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/Blog.svg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="assets/images/IMG_20240317_224727_109.png" width="64" height="24" alt="Julia home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="assets/images/IMG_20240317_224727_080.png" width="40" height="20" alt="Julia home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li><a href="#features" class="navbar-link">Features</a></li>
+          <li><a href="#learn" class="navbar-link">About Us</a></li>
+          <li><a href="#updates" class="navbar-link">Updates</a></li>
+          <li><a href="#contact" class="navbar-link">Contact</a></li>
+      </ul>
+
+        <!-- <div class="wrapper">
+          <a href="mailto:info@email.com" class="contact-link">info@email.com</a>
+
+          <a href="tel:001234567890" class="contact-link">00 (123) 456 78 90</a>
+        </div> -->
+
+        <ul class="social-list">
+<!-- 
+          <li>
+            <a href="https://www.kapze.com" class="btn btn-primary">
+             Login/SignUp 
+            </a>
+          </li> -->
+
+             
+          <!-- <li>
+            <a style="color: rgb(226, 226, 226); font-family: poppins;" href="#" class="social-link">
+            Download Apps
+            </a>
+          </li> -->
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-apple"></ion-icon>
+            </a>
+          </li>
+
+          
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-android"></ion-icon>
+            </a>
+          </li>
+
+          <!-- <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-windows"></ion-icon>
+            </a>
+          </li> -->
+
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <figure class="hero-banner">
+            <img src="assets/images/018468a5-6200-4470-842d-b6e61c3bf7f7.jfif" width="560" height="540" alt="Julia" class="w-100"
+              data-reveal="top">
+
+            <img id="ai" src="./assets/images/IMG_20240317_224727_080.png" width="203" height="91" alt="250+ Projects Done" class="shape"
+              data-reveal="top" data-reveal-delay="0.25s">
+          </figure>
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+           It's <strong style="font-family:Homemade Apple ;">2024</strong> & Everyone's<br>  Using <strong style="background: linear-gradient(45deg, rgb(9, 97, 76), rgb(9, 97, 76));
+           -webkit-background-clip: text; 
+           color: transparent; 
+           text-shadow: 0 0px 100px rgba(10, 255, 141, 0);">Kapze.</strong>
+            </h1>
+
+            <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+           
+              Experience the future now with Kapze—where connections, conversations, and communities collide in the ultimate social hub of 2024. Join us today and lead the way into the next era of social engagement!
+            </p>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+              <a href="https://www.kapze.com" class="btn2 btn2-primary">Get <strong>Started</strong></a>
+
+              <a href="#learn" class="btn2 btn2-secondary">Learn <strong>More</strong></a>
+            </div>
+
+          </div>
+
+        
+
+
+
+          <div id="learn"></div>
+        </div>
+      </section>
+
+      
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about">
+        <div class="container">
+
+          <div class="wrapper">
+
+            <div data-reveal="left">
+              <h2 class="h2 section-title">What's <br> <strong style="font-family:Homemade Apple ;">Kapze</strong> All About?</h2>
+
+              <p class="section-text">
+                Kapze is a dynamic social media platform designed to empower individuals, foster meaningful connections, and spark engaging conversations. It's a digital hub where diverse voices converge, ideas find expression, and communities flourish. 
+              </p>
+              <br>
+               
+              <p class="section-text">
+                With Kapze, you can share your story, discover new perspectives, and engage with a vibrant network of users. Join us and experience the pulse of social interaction in a whole new way.</p>
+                <br>
+                <a href="https://www.kapze.com" class="btn2 btn2-primary">Get Started<strong> With Kapze</strong></a>
+
+            </div>
+
+            <ul class="progress-list" data-reveal="right">
+              <h2 class="h2 section-title">Why Choose <br> <strong style="font-family:Homemade Apple ;">Kapze</strong>?</h2>
+
+                <p class="section-text">
+                  Because it's more than just a social media platform — Kapze offers a refreshing approach to social interaction, prioritizing meaningful engagement over mere scrolling. Here, you'll find a supportive community, diverse perspectives, and innovative features that empower you to express yourself authentically. <br> <br> With Kapze, you're not just a user; you're an integral part of a dynamic digital ecosystem where your voice matters.</p>
+                            
+                <br>
+                <a href="https://www.kapze.com" class="btn2 btn2-primary">Join The <strong> Ecosystem</strong></a>
+            </ul>
+
+          </div>
+
+     
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+      <section style="background: transparent; color: black;" class="section about" aria-label="about">
+        <div class="container">
+
+          
+          <ul class="grid-list">
+
+            <li data-reveal="bottom">
+              <div id="one"  class="about-card">
+
+                <div  class="card-icon">
+                  <i class="fas fa-user-cog"></i>
+                </div>
+
+                <h3  class="h4 card-title">Profile Customization</h3>
+
+                <p class="card-text">
+                  Personalize your Kapze profile with photos, bios, and links, making it uniquely yours.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div id="two" class="about-card">
+
+                <div class="card-icon">
+                  <i class="fas fa-comment-alt"></i>
+                </div>
+
+                <h3 class="h4 card-title">Direct Messaging</h3>
+
+                <p class="card-text">
+                  Stay connected with friends and followers through private messages, fostering one-on-one conversations and connections.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div id="three" class="about-card">
+
+                <div class="card-icon">
+                  <i class="fas fa-stream"></i>
+                </div>
+
+                <h3 class="h4 card-title">Timeline Feed</h3>
+
+                <p class="card-text">
+                  Stay updated with the latest posts, news, and activities from your network through a chronological timeline feed.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.75s">
+              <div id="four" class="about-card">
+
+                <div class="card-icon">
+                  <i class="fas fa-search"></i>
+                </div>
+
+                <h3 class="h4 card-title">Search and Discover</h3>
+
+                <p class="card-text">
+                  Easily find and explore new connections, topics, and communities through Kapze's intuitive search and discovery tools.
+
+
+
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <!-- <div  class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">Get Kapze On-The-Go</h2>
+
+              <p class="section-text">
+                Experience Kapze Anywhere, Anytime!
+            Right in the palm of your hand.
+              </p>
+            </div>
+
+            <a href="#" class="btn btn-secondary">Download App</a>
+
+          </div> -->
+
+          <div style="background: transparent;" class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2  class="h2 section-title" id="project-label">Try Out Our Special Features</h2>
+
+              <p  class="section-text">
+                Discover the magic of Kapze's exclusive features. Elevate your social experience with our unique offerings designed to ignite connections and amplify your presence in the digital realm. Dive in today and explore a world of limitless possibilities!
+
+
+
+
+
+
+
+              </p>
+            </div>
+
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card project-card-1" style="background-color: #f8f5fb">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #a07cc5">Special Feature</p>
+
+                  <h3 class="h3 card-title">Interactive Communities</h3>
+
+                  <p class="card-text">
+                    Join vibrant communities tailored to your interests, where you can connect with like-minded individuals, share experiences, and engage in lively discussions.
+                  </p>
+
+                  <a href="https://www.kapze.com" class="btn-text" style="color: #a07cc5">
+                    <span class="span">Get Started</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <!-- <img src="assets/images/Ilka___Franz_-_Photo___Director_Duo-removebg-preview.png" width="650" height="370" loading="lazy" alt="Web Design"
+                    class="w-100"> -->
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-2" style="background-color: #f1f5fd">
+
+                <div class="card-content" data-reveal="right">
+
+                  <p class=" card-tag" style="color: #3f78e0">Special Feature</p>
+
+                  <h3 class="h3 card-title">Personalized Feeds</h3>
+
+                  <p class="card-text">
+                    Experience a tailored browsing experience with personalized feeds that showcase content, conversations, and updates most relevant to your preferences and connections.
+                  </p>
+
+                  <a href="https://www.kapze.com" class="btn-text" style="color: #3f78e0">
+                    <span class="span">Get Started</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <!-- <img src="assets/images/_Portrait_Of_Black_Man_In_The_Studio__by_Stocksy_Contributor__VICTOR_TORRES_-removebg-preview.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100"> -->
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-3" style="background-color: #f5faf7">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #7cb798">Special Feature</p>
+
+                  <h3 class="h3 card-title">Seamless Multimedia Sharing</h3>
+
+                  <p class="card-text">
+                    Share your stories, moments, and creations effortlessly with a range of multimedia options, including photos, videos, and live broadcasts, to express yourself in the most captivating way possible.
+                  </p>
+                  <a href="https://www.kapze.com" class="btn-text" style="color: #7cb798">
+                    <span class="span">Get Started</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <!-- <img src="assets/images/67125763-3c3f-42b8-acdd-387880e664ce-removebg-preview.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100"> -->
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-4" style="background-color: #fcf4f6">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #d16b86">Special Feature</p>
+
+                  <h3 class="h3 card-title">Innovative Engagement Tools</h3>
+
+                  <p class="card-text">
+                    Engage with your audience like never before with innovative features such as interactive polls, Q&A sessions, and live events, fostering meaningful connections and driving authentic engagement.
+                  </p>
+
+                  <a href="https://www.kapze.com" class="btn-text" style="color: #d16b86">
+                    <span class="span">Get Started</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <!-- <img src="assets/images/018468a5-6200-4470-842d-b6e61c3bf7f7-removebg-preview.png" width="620" height="370" loading="lazy" alt="Mobile Design"
+                    class="w-100"> -->
+                </figure>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        © 2024 Kapze Management. All rights reserved.
+      </p>
+
+      <ul class="social-list">
+
+        <li>
+          <a style="font-family: poppins; color: white;" href="#" class="social-link">
+            Download Apps
+          </a>
+        </li>
+
+        <li>
+          <a  href="#" class="social-link">
+            <ion-icon name="logo-apple"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-android"></ion-icon>
+          </a>
+        </li>
+
+     
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+    var copy = document.querySelector(".logos-slide").cloneNode(true);
+    document.querySelector(".logos").appendChild(copy);
+  </script>
+
+</body>
+
+</html>
